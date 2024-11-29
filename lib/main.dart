@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sports_app/screens/home.dart';
 import 'screens//onboarding_screen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: OnboardingScreen2(),
+      home: HomeScreen(),
     );
   }
 }
